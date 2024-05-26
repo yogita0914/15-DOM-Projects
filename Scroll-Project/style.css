@@ -1,0 +1,183 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    width: 80%;
+    margin-left: 10%;
+}
+
+
+header {
+    background-color: #6e6565;
+    padding: 20px 0;
+}
+
+.nav-center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.nav-header .logo {
+    width: 50px;
+}
+
+.nav-toggle {
+    background: transparent;
+    border: none;
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+}
+
+.links-container {
+    display: flex;
+}
+
+.links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.links li {
+    margin-right: 20px;
+}
+
+.links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+.container p{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 6%;
+    color: #fff;
+}
+
+.banner {
+    text-align: center;
+    padding: 100px 20px;
+    background: url('images/cloud.jpg') center/cover no-repeat;
+    margin-top: 25px;
+    color: black;
+    
+}
+
+.banner h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.banner p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: black;
+    /* width: 70px; */
+}
+
+.btn {
+    background: #ff6700;
+    color: #fff;
+    padding: 15px 20px;
+    /* margin-top: 50%;s */
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+#about{
+    background: url('images/nature2.jpg') center/cover no-repeat;
+
+}
+#about p{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 6%;
+    color: #fff;
+}
+
+#services{
+    background: url('images/nature3.jpg') center/cover no-repeat;
+    margin-top: 5px;
+}
+#services p{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 6%;
+    color: #000;
+}
+
+#tour{
+    background: url('images/nature4.jpg') center/cover no-repeat;
+    margin-top: 5px;
+    color: #fff;
+    margin-bottom: 6px;
+}
+#tour p{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 6%;
+    color: #fff;
+}
+
+.section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.title h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.title span {
+    color: #ff6700;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.top-link {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #ff6700;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    text-decoration: none;
+    display: none;
+    font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+    .nav-toggle {
+        display: block;
+    }
+
+    .links-container {
+        display: none;
+        flex-direction: column;
+    }
+
+    .links li {
+        margin-bottom: 10px;
+    }
+
+    .nav-center {
+        flex-direction: column;
+    }
+}
